@@ -46,4 +46,5 @@ jobs:
           dotnet nuget add source https://api.nuget.org/v3/index.json -n nuget.org
           .\make.ps1 check
           dotnet build OpenRA.Test\OpenRA.Test.csproj -c Debug --nologo -p:TargetPlatform=win-x64
+          dotnet test bin\OpenRA.Test.dll --test-adapter-path:.
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
