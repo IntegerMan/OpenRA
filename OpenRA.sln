@@ -25,6 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenRA.WindowsLauncher", "O
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F286417-8442-4041-B031-831E2027859A}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
 		.github\workflows\ci.yaml = .github\workflows\ci.yaml
 		.github\workflows\documentation.yml = .github\workflows\documentation.yml
 		.github\workflows\itch.yml = .github\workflows\itch.yml

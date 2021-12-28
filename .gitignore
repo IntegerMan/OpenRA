@@ -70,3 +70,5 @@ StyleCopViolations.xml
 
 # IntelliJ files
 .idea
+
+NDependOut/
