@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <NDepend AppName="OpenRA" Platform="DotNet" FileWrittenByProductVersion="2021.2.5.9630">
   <OutputDir KeepXmlFiles="False">.\NDependOut</OutputDir>
   <IDEFiles>
@@ -9,11 +9,63 @@
     </IDEFile>
   </IDEFiles>
   <Assemblies />
-  <FrameworkAssemblies />
+  <FrameworkAssemblies>
+    <Name>System.Runtime</Name>
+    <Name>Eluant</Name>
+    <Name>System.Collections</Name>
+    <Name>System.Linq</Name>
+    <Name>System.Security.Cryptography.Algorithms</Name>
+    <Name>System.Security.Cryptography.Csp</Name>
+    <Name>System.ComponentModel.TypeConverter</Name>
+    <Name>System.Diagnostics.Process</Name>
+    <Name>System.Net.Primitives</Name>
+    <Name>System.Net.Http</Name>
+    <Name>System.IO.FileSystem</Name>
+    <Name>System.Threading.Thread</Name>
+    <Name>System.Text.RegularExpressions</Name>
+    <Name>System.Collections.Concurrent</Name>
+    <Name>System.Threading.Channels</Name>
+    <Name>System.Reflection.Emit.ILGeneration</Name>
+    <Name>System.Reflection.Emit.Lightweight</Name>
+    <Name>Fluent.Net</Name>
+    <Name>System.Runtime.Loader</Name>
+    <Name>Microsoft.Extensions.DependencyModel</Name>
+    <Name>System.Runtime.InteropServices.RuntimeInformation</Name>
+    <Name>System.Threading</Name>
+    <Name>System.Linq.Expressions</Name>
+    <Name>System.Net.Sockets</Name>
+    <Name>System.Runtime.Numerics</Name>
+    <Name>ICSharpCode.SharpZipLib</Name>
+    <Name>Mono.Nat</Name>
+    <Name>System.ObjectModel</Name>
+    <Name>System.Console</Name>
+    <Name>System.Security.Cryptography.Primitives</Name>
+    <Name>System.Memory</Name>
+    <Name>System.Runtime.Serialization.Formatters</Name>
+    <Name>System.Threading.ThreadPool</Name>
+    <Name>System.Reflection.Primitives</Name>
+    <Name>System.Diagnostics.StackTrace</Name>
+    <Name>System.ComponentModel.Primitives</Name>
+    <Name>System.Net.NameResolution</Name>
+    <Name>SDL2-CS</Name>
+    <Name>System.Runtime.InteropServices</Name>
+    <Name>OpenAL-CS.Core</Name>
+    <Name>DiscordRPC</Name>
+    <Name>System.Drawing.Primitives</Name>
+    <Name>FuzzyLogicLibrary</Name>
+    <Name>Pfim</Name>
+    <Name>BeaconLib</Name>
+    <Name>System.IO.FileSystem.DriveInfo</Name>
+    <Name>System.Threading.Tasks.Parallel</Name>
+    <Name>MP3Sharp</Name>
+    <Name>TagLibSharp</Name>
+    <Name>NVorbis</Name>
+    <Name>Microsoft.Win32.Registry</Name>
+  </FrameworkAssemblies>
   <Dirs>
-    <Dir>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.0</Dir>
-    <Dir>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.0</Dir>
-    <Dir>C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.0</Dir>
+    <Dir>C:\Program Files\dotnet\shared\Microsoft.NETCore.App\5.0.13</Dir>
+    <Dir>C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App\5.0.13</Dir>
+    <Dir>C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App\5.0.13</Dir>
     <Dir>C:\Program Files\dotnet\sdk\NuGetFallbackFolder</Dir>
     <Dir>C:\Users\Admin\.nuget\packages</Dir>
   </Dirs>
@@ -21,8 +73,8 @@
   <ZipSourceFiles>True</ZipSourceFiles>
   <Report Kind="0" SectionsEnabled="110591" XslPath="" Flags="261120" />
   <BuildComparisonSetting ProjectMode="CurrentProject" BuildMode="NDaysAgoAnalysisResult" ProjectFileToCompareWith="" BuildFileToCompareWith="" NDaysAgo="30" />
-  <BaselineInUISetting ProjectMode="CurrentProject" BuildMode="NDaysAgoAnalysisResult" ProjectFileToCompareWith="" BuildFileToCompareWith="" NDaysAgo="30" />
-  <CoverageFiles CoverageDir="" UncoverableAttribute="" />
+  <BaselineInUISetting ProjectMode="CurrentProject" BuildMode="MostRecentAnalysisResultAvailable" ProjectFileToCompareWith=".\OpenRA.ndproj" BuildFileToCompareWith=".\NDependOut\NDependAnalysisResult_OpenRA_2021Dec28_17h23.ndar" NDaysAgo="30" />
+  <CoverageFiles CoverageDir=".\Coverage" UncoverableAttribute="" />
   <TrendMetrics UseCustomLog="False" LogRecurrence="3" LogLabel="2" UseCustomDir="False" CustomDir="">
     <Chart Name="Size" ShowInReport="True">
       <Serie MetricName="# Lines of Code" MetricUnit="Loc" Color="#FF00BFFF" ChartType="Line" ScaleExp="0" />
@@ -83,8 +135,7 @@
       <High2Critical_SeverityThreshold>72000000000</High2Critical_SeverityThreshold>
       <Critical2Blocker_SeverityThreshold>360000000000</Critical2Blocker_SeverityThreshold>
     </DebtSettings>
-  </ProjectDebtSettings>
-  <Queries>
+  </ProjectDebtSettings><Queries>
     <Group Name="Quality Gates" Active="True" ShownInReport="False">
       <Query Active="True" DisplayList="True" DisplayStat="True" DisplaySelectionView="False" IsCriticalRule="False"><![CDATA[// <Name>Quality Gates Evolution</Name>
 from qg in QualityGates
@@ -13047,6 +13098,4 @@ select new {
 //</HowToFix>]]></Query>
       </Group>
     </Group>
-  </Queries>
-  <WarnFilter />
-</NDepend>
+  </Queries></NDepend>
